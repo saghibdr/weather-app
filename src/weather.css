@@ -1,0 +1,80 @@
+.koll {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(241, 186, 76, 0.339);
+  /* background-image: url(image/HD-wallpaper-weather-sun-cloud-minimalism.jpg); */
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.myinp {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  color: rgb(43, 43, 81);
+  background-color: rgba(255, 255, 255, 0.833);
+}
+.mybtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  color: rgb(43, 43, 81);
+  background-color:  rgba(255, 255, 255, 0.833);
+}
+
+.inps {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.infs {
+  width: 700px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.514);
+  color: rgb(12, 12, 12);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .infs {
+    width: 500px;
+  }
+}
+@media screen and (min-width:414px) and (max-width:896px){
+  .koll{
+    width: 100vw;
+    height: 100vh;
+  }
+  .myinp{
+    width: 200px;
+    
+  }
+  .inps{
+    width: 414px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .mybtn{width: 80px;}
+    .infs{
+        width:350px;
+    }
+}
